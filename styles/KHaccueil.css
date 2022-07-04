@@ -1,0 +1,333 @@
+@font-face {
+    font-family: "Lato";
+    src: url("../Sources/Lato/Lato-Regular.ttf");
+  }
+
+@font-face {
+    font-family: "Lato";
+    src: url("../Sources/Lato/Lato-Bold.ttf");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "Lato";
+    src: url("../Sources/Lato/Lato-Light.ttf");
+    font-weight: light;
+}
+
+
+  
+  body{
+      background-image: url("../Sources/Back.png");
+      background-repeat : no-repeat;
+	  background-position : center top;
+      background-size: 100%;
+      background-attachment: fixed ;
+      margin: 0;
+  }
+  
+  #page{
+      display: flex;
+      flex-wrap: wrap;
+      align-content: center;
+      flex-direction: column;
+      height: 100%;
+  }
+  
+  p{
+      font-family: "Lato";
+      font-weight: light;
+      font-size: 13px;
+      color: white;
+      margin: 0;
+      padding:0;
+  }
+
+  a{
+    text-decoration: none;
+  }
+  
+  h1{
+      font-family: "Lato";
+      font-size: 24px;
+      color: white;
+      margin-bottom: 20px;
+      padding:0;
+  }
+  
+  h2{
+      font-family: "Lato";
+      font-size: 20px;
+      color: white;
+      margin-bottom: 18px;
+      padding:0;
+  }
+  
+  
+  h3{
+      font-family: "Lato";
+      font-size: 12px;
+      color: white;
+      margin-bottom: 12px;
+      padding:0;
+  }
+  
+  main {
+    background-color : #011826;
+  }
+
+  .bouton{
+      font-family: "Lato";
+      font-weight: bold;
+  }
+
+  
+  
+  /*Header////////////////////////////////////////////////////////////////*/
+ 
+header {
+      display: flex;
+      align-items: center;
+      width: 1664px;
+      height:70px;
+      background-color : #011826;
+      padding-left: auto;
+      padding-right: auto;
+  }
+  
+  #logo{
+      width: 173px;
+      height: 28px;
+      padding: 21px 43px;
+  }
+  
+  nav{
+      left : 0;
+      bottom :0;
+      width: 100%;
+  }
+  
+  nav ul{
+      display: flex;
+      align-items: center;
+      margin:0;
+      padding:0;
+      list-style-type: none; 
+  }
+  
+  nav ul li a{
+      font-family: "Lato";
+      font-size: 14px;
+      color: white;
+      padding: 14px 50px;
+      text-decoration: none;
+  }
+  
+  nav ul>:last-child{
+      margin-left: auto;
+      padding-right: 45px;
+  }
+  
+  #espace{
+      display: flex;
+      align-items: center;
+  }
+  
+  
+  #perso{
+      width: 17px;
+      height: 18px;
+      padding-right: 27px;
+  }
+  
+  #banner{
+      width: 100%;
+  }
+  
+  
+  /*Barre de recherche*/
+  
+  #BarreR{
+      margin-top: -25px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 40.11px;
+      background-image: url("../Sources/BarreR.png");
+      background-repeat : no-repeat;
+      background-position : center top;
+      position: relative;
+  }
+  
+  #Loupe {
+      width:  22px;
+      height: 22.74px;
+      padding-right: 405px;
+      margin-right: 70px;
+  }
+  
+  #Fleche1 {
+      width:  20.44;
+      height: 13.3px;
+      margin-left: 24px;
+      margin-right: 40px;
+  }
+  
+  #Fleche2 {
+      width:  20.44;
+      height: 13.3px;
+      margin-left: 24px;
+  }
+  
+
+/* Meuilleures offres*/
+
+article{
+    margin-top: 44px;
+    padding: 0px 115px;
+}
+
+
+.bande{
+    display: flex;
+    justify-content: space-between;
+}
+
+.bloc{
+    width: 316px;
+    height: 425px;
+    background-image: url("../Sources/Fondsection.png");
+}
+
+.infos{
+    padding: 0px 24px;
+    display: flex; 
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.description {
+    height: 100px;
+}
+
+.prix>:first-child{
+    font-family: "Lato";
+    font-size: 12px;
+    color: white;
+    margin-bottom: 12px;
+    margin: 0;
+    padding:0;
+}
+
+.nombre{
+    font-family: "Lato";
+    font-size: 20px;
+    color: white;
+    padding:0;
+    margin-left: 16px;
+}
+ 
+
+.prix{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    align-self: flex-end;
+}
+
+
+/*Qui nous somme //////////////////////////////////////////////*/
+
+#Pourquoi{
+    background-image: url("../Sources/FonE.png");
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 18px 114px;
+}
+
+.zdt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 316px;
+}
+
+#Pourquoi p{
+    text-align: center;
+    margin: 18px 0px;
+    padding: 0px;
+}
+
+#Pourquoi h1{
+    text-align: center;
+    margin: 18px 0px;
+}
+
+#Pourquoi h2{
+    text-align: center;
+    margin: 0px;
+}
+
+#Pourquoi .bande{
+    margin-top: 10px;
+}
+
+#description p{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+#description{
+   margin-bottom: 20px;
+}
+
+
+/*footer//////////////////////////////////////////////*/
+
+footer{
+    margin-top: 90px;
+    width: 1440px;
+    height: 182px;
+    background-color: #062B4A;
+    padding: 34px 112px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.Iffooter{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.Iffooter div{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.Iffooter p{
+    padding-left: 55px;
+}
+
+#tel{
+    width: 18px;
+    height: 17px;
+    padding: 0px 4px;
+}
+
+#mail{
+    width: 24px;
+    height: 17px;
+}
+
+#Loc{
+    width: 18px;
+    height: 31px;
+    padding: 0px 3px;
+}

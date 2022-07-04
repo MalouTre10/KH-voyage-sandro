@@ -1,0 +1,361 @@
+@font-face {
+    font-family: "Lato";
+    src: url("../Sources/Lato/Lato-Regular.ttf");
+  }
+
+@font-face {
+    font-family: "Lato";
+    src: url("../Sources/Lato/Lato-Bold.ttf");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "Lato";
+    src: url("../Sources/Lato/Lato-Light.ttf");
+    font-weight: light;
+}
+
+
+  
+  body{
+      background-image: url("../Sources/Back.png");
+      background-repeat : no-repeat;
+	  background-position : center top;
+      background-size: 100%;
+      background-attachment: fixed ;
+      margin: 0;
+  }
+  
+  #page{
+      display: flex;
+      flex-wrap: wrap;
+      align-content: center;
+      flex-direction: column;
+      height: 100%;
+  }
+  
+  p{
+      font-family: "Lato";
+      font-weight: light;
+      font-size: 13px;
+      color: white;
+      margin: 0;
+      padding:0;
+  }
+
+  a{
+    text-decoration: none;
+  }
+  
+  h1{
+      font-family: "Lato";
+      font-size: 24px;
+      color: white;
+      margin-bottom: 20px;
+      padding:0;
+  }
+  
+  h2{
+      font-family: "Lato";
+      font-size: 20px;
+      color: white;
+      margin-top: 0px;
+      margin-bottom: 0px;
+      padding:0;
+  }
+  
+  
+  h3{
+      font-family: "Lato";
+      font-size: 12px;
+      color: white;
+      margin-bottom: 12px;
+      padding:0;
+  }
+  
+  main {
+    background-color : #011826;
+  }
+
+  .bouton{
+      font-family: "Lato";
+      font-weight: bold;
+  }
+
+    /*Header////////////////////////////////////////////////////////////////*/
+ 
+header {
+      display: flex;
+      align-items: center;
+      width: 1664px;
+      height:70px;
+      background-color : #011826;
+      padding-left: auto;
+      padding-right: auto;
+  }
+  
+#logo{
+      width: 173px;
+      height: 28px;
+      padding: 21px 43px;
+}
+  
+nav{
+      left : 0;
+      bottom :0;
+      width: 100%;
+}
+  
+  nav ul{
+      display: flex;
+      align-items: center;
+      margin:0;
+      padding:0;
+      list-style-type: none; 
+  }
+  
+  nav ul li a{
+      font-family: "Lato";
+      font-size: 14px;
+      color: white;
+      padding: 14px 50px;
+      text-decoration: none;
+  }
+  
+  nav ul>:last-child{
+      margin-left: auto;
+      padding-right: 45px;
+  }
+  
+  #espace{
+      display: flex;
+      align-items: center;
+  }
+  
+  
+  #perso{
+      width: 17px;
+      height: 18px;
+      padding-right: 27px;
+  }
+  
+  #banner{
+      width: 100%;
+  }
+  
+  
+  /*BANIERE-----------------------------------------------------------------------*/
+
+#bandeau{
+    display: flex;
+    flex-direction: column;
+}
+
+#carre{
+    height: 56px;
+    width: 244px;
+    background: #011826;
+    border-radius: 18px 18px 0px 0px;
+    text-align: center;
+    margin-top: -56px;
+    margin-left: 114px;
+}
+
+
+/*Filtre-----------------------------------------------------------------------------*/
+
+#filtre{
+    width: 336px;
+    height: 515px;
+    padding: 13px 20px;
+    background-color: #05335B;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#filtre h2{
+    margin-top: 0px;
+}
+
+
+/*Cursseur----------------------------------------------------------------------------*/
+
+.Curseur{
+    background-color: white;
+    width:336px;
+    height: 3px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 0px;
+    padding-right: 0px;
+    display: flex;
+    align-items: center;
+}
+
+.chiffre{
+    display: flex;
+    justify-content: space-between;
+}
+
+.chiffre :nth-child(2){
+    color: #54E2C5;
+    margin-left: -190px;
+}
+
+.coche{
+    height: 14px;
+    width: 14px;
+    border-color: white;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.categorie{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+#choix{
+    padding: 91px 114px;
+    padding-bottom: 0px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+/*Voyages---------------------------------------------------------------------------------------------*/
+
+
+
+
+.photos{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 316px;
+    height: 267px;
+}
+
+.pano{
+    width: 764px;
+    height: 267px;
+    background-image: url("../Sources/PageDestination/ele/fondBloc.png");
+    background-repeat : no-repeat;
+	background-position : center top;
+    background-size: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 69px;
+}
+
+.multi{
+    margin:0px;
+    padding:0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#POlympe{
+    width: 316px;
+    height: 171px;
+}
+
+.infos{
+    margin: 25px 24px;
+    width: 401px;
+    height: 225px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.etoile{
+    margin-left: 8px;
+    width: 10px;
+    height: 10px;
+}
+
+.avis{
+    display: flex;
+    align-items: center;
+}
+
+.prix>:first-child{
+    font-family: "Lato";
+    font-size: 12px;
+    color: white;
+    margin-bottom: 12px;
+    margin: 0;
+    padding:0;
+}
+
+.nombre{
+    font-family: "Lato";
+    font-size: 20px;
+    color: white;
+    padding:0;
+    margin-left: 16px;
+}
+ 
+
+.prix{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    align-self: flex-end;
+}
+
+.lieux:last-child{
+    margin:0px;    
+}
+
+/*footer//////////////////////////////////////////////*/
+
+footer{
+    margin-top: 21px;
+    width: 1440px;
+    height: 182px;
+    background-color: #062B4A;
+    padding: 34px 112px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.Iffooter{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.Iffooter div{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.Iffooter p{
+    padding-left: 55px;
+}
+
+#tel{
+    width: 18px;
+    height: 17px;
+    padding: 0px 4px;
+}
+
+#mail{
+    width: 24px;
+    height: 17px;
+}
+
+#Loc{
+    width: 18px;
+    height: 31px;
+    padding: 0px 3px;
+}
